@@ -1,0 +1,10 @@
+# javamail.providers for GNU JavaMail
+protocol=smtp; type=transport; class=gnu.mail.providers.smtp.SMTPTransport; vendor=nferrier@tapsellferrier.co.uk;
+protocol=smtps; type=transport; class=gnu.mail.providers.smtp.SMTPTransport; vendor=nferrier@tapsellferrier.co.uk;
+protocol=imap; type=store; class=gnu.mail.providers.imap.IMAPStore; vendor=dog@gnu.org;
+protocol=imaps; type=store; class=gnu.mail.providers.imap.IMAPStore; vendor=dog@gnu.org;
+protocol=pop3; type=store; class=gnu.mail.providers.pop3.POP3Store; vendor=dog@gnu.org;
+protocol=nntp; type=store; class=gnu.mail.providers.nntp.NNTPStore; vendor=dog@gnu.org;
+protocol=nntp-post; type=transport; class=gnu.mail.providers.nntp.NNTPTransport; vendor=dog@gnu.org;
+protocol=mbox; type=store; class=gnu.mail.providers.mbox.MboxStore; vendor=dog@gnu.org;
+protocol=maildir; type=store; class=gnu.mail.providers.maildir.MaildirStore; vendor=dog@gnu.org;
